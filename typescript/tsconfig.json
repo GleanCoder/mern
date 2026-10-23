@@ -1,0 +1,14 @@
+{
+"compilerOptions":{
+  "target": "es2022", //target compiler option specifies which version of JavaScript TypeScript should generate when compiling your code.
+  "module": "es2022",//the module compiler option determines how JavaScript modules are generated when TypeScript compiles your code.(import export)
+  "moduleResolution":"bundler",
+  "strict": true,
+  "noUncheckedIndexedAccess":true,
+  "exactOptionalPropertyTypes": true,
+  "skipLibCheck": true,//tells the compiler to skip type-checking declaration files (.d.ts) while still checking your own TypeScript code.
+  "rootDir": "src",
+  "outDir":"dist"
+},
+"include":["src/**/*"]
+}
